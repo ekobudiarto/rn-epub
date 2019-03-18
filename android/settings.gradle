@@ -1,0 +1,5 @@
+rootProject.name = 'ePub'
+
+include ':app'
+include ':react-native-e-pub-lib'
+project(':react-native-e-pub-lib').projectDir = new File(settingsDir, '../node_modules/react-native-e-pub-lib/android')
